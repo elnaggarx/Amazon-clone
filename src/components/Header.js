@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className='text-white text-xs md:text-sm flex items-center space-x-1 mx-4'>
                 <div className='hidden lg:flex items-center space-x-1 text-[#fff] link '>
-                    <Image src={image2}  className='w-[20px] h-[15px]' alt='USA'></Image>
+                    <Image src={image2}  width={20} height={15} alt='USA'></Image>
                     <p className='font-bold text-sm'>EN <ArrowDropDownIcon className='w-fit text-lg text-[#e6e6e6] ml-[-0.2rem] mt-[0.1rem]'></ArrowDropDownIcon></p>
                     
                 </div>
