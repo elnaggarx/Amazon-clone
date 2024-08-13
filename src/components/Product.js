@@ -17,7 +17,7 @@ const Product = (props) => {
         <p className='mb-5'>{props.price} EGP</p>
         {hasPrime &&
         <div className='flex items-center -mt-5 space-x-2 h-[5%]'>
-            <Image src={prime} className='w-12 '></Image>
+            <Image src={prime} className='w-12 ' alt='prime'></Image>
             <p className='text-xs text-gray-500'>Free Next-day Delivery</p>
             
         </div>

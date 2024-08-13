@@ -24,14 +24,14 @@ const Carousel = () => {
       navigation={true} 
       autoplay={{delay:4500}}
        >
-            <SwiperSlide><Image src={realTimeCarousel1} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={realTimeCarousel2} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={realTimeCarousel3} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={carousel1} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={carousel2} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={carousel3} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={carousel4} objectFit='cover'></Image></SwiperSlide>
-            <SwiperSlide><Image src={carousel5} objectFit='cover'></Image></SwiperSlide>
+            <SwiperSlide><Image src={realTimeCarousel1} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={realTimeCarousel2} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={realTimeCarousel3} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={carousel1} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={carousel2}  alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={carousel3} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={carousel4} alt="error"></Image></SwiperSlide>
+            <SwiperSlide><Image src={carousel5} alt="error"></Image></SwiperSlide>
       </Swiper>
     </div>
     

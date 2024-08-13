@@ -10,7 +10,7 @@ const Header = () => {
     <header>
         <div className='flex items-center bg-[#131921] p-auto h-[9.7vh] flex-grow px-2'>
             <div className='flex-grow sm:flex-grow-0 link'>
-                <Image src={image1} width={103} height={40} objectFit='contain' className='cursor-pointer ' alt='amazon-logo'></Image>
+                <Image src={image1} width={103}   className='cursor-pointer ' alt='amazon-logo'></Image>
                 
             </div>
             <div className=' flex-col link hidden lg:flex'>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Product from './Product'
-import ad from "../assets/banner_image.jpg"
+import banner from "../assets/banner_image.jpg"
 import Image from 'next/image'
 const ProductsFeed = (props) => {
   return (
@@ -15,7 +15,7 @@ const ProductsFeed = (props) => {
         
 
         </Product>)}
-        <Image src={ad} className='md:col-span-full' alt="error" />
+        <Image src={banner} className='md:col-span-full border-none' width={"100%"} alt="error" ></Image>
         <div className='md:col-span-2'>
         {props.products?.slice(4,5).map((product)=>
         <Product key={product.id} id={product.id} 
