@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
 import image1 from "../assets/logo.png";
-import image2 from "../assets/usa.png"
+import image2 from "../assets/usa.png";
 import {MenuIcon , SearchIcon , ShoppingCartIcon} from "@heroicons/react/outline";
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
@@ -10,7 +10,7 @@ const Header = () => {
     <header>
         <div className='flex items-center bg-[#131921] p-auto h-[9.7vh] flex-grow px-2'>
             <div className='flex-grow sm:flex-grow-0 link'>
-                <Image src={image1} width={103}   className='cursor-pointer ' alt='amazon-logo'></Image>
+                <Image unoptimized src={image1} width={103}   className='cursor-pointer ' alt='amazon-logo'></Image>
                 
             </div>
             <div className=' flex-col link hidden lg:flex'>
@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className='text-white text-xs md:text-sm flex items-center space-x-1 mx-4'>
                 <div className='hidden lg:flex items-center space-x-1 text-[#fff] link '>
-                    <Image src={image2}  width={20} height={15} alt='USA'></Image>
+                    <Image src={image2}  width={20} height={15} unoptimized alt='USA'></Image>
                     <p className='font-bold text-sm'>EN <ArrowDropDownIcon className='w-fit text-lg text-[#e6e6e6] ml-[-0.2rem] mt-[0.1rem]'></ArrowDropDownIcon></p>
                     
                 </div>

@@ -15,7 +15,7 @@ const ProductsFeed = (props) => {
         
 
         </Product>)}
-        <Image src={banner} className='md:col-span-full border-none' width={"100%"} alt="error" ></Image>
+        <Image src={banner} className='md:col-span-full border-none' unoptimized width={"100%"} alt="error" ></Image>
         <div className='md:col-span-2'>
         {props.products?.slice(4,5).map((product)=>
         <Product key={product.id} id={product.id} 
